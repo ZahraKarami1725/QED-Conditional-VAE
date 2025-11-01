@@ -1,0 +1,32 @@
+# .gitignore
+# Ignore all auto-generated and large files
+
+# Data (QM9)
+data/
+qm9_processed.csv
+raw/
+processed/
+
+# Models
+models/
+*.pth
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Generated outputs
+generated_molecules.png
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Virtual environment
+venv/
+env/
+.env
